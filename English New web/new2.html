@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./public.css" />
+    <link rel="stylesheet" href="./new2.css" />
+    <script src="./public.js"></script>
+    
+</head>
+<body>
+    <header>
+       <div class="header-top">
+        <div class="header-top-left">
+            <img src="all.img/CUG.png" >
+            <div class="header-top-center">
+                <div>
+                    CUG-chenglugroup
+                </div>
+                <div class="header-top-low">
+                  Mainly engaged in the research of new material properties and functions
+                </div>
+            </div>
+        </div>
+        <div class=lang0>
+            <div >
+                <a href=".\English New web\New website establish2\new1.html" style="color:darkcyan" target="artical">中文</a>
+            </div>
+            <div>
+                |English
+            </div>         
+        </div>
+       </div>   
+           
+       
+       <div class="header-bottom">
+        <a href="./new1.html" target="artical">Home</a>
+        <a href="./new2.html" target="artical">Directions</a>
+        <a href="./new3.html" target="artical">Achievements</a>
+        <a href="./new4.html" target="artical">Members</a>
+        <a href="./new5.html" target="artical">News</a>
+        <a href="./new6.html" target="artical">Activities</a>
+        <a href="./new7.html" target="artical">Join us</a>
+        <a href="./new8.html" target="artical">Contact us</a>
+       </div>
+    </header>
+    <main>
+        <div class="lun">
+            <div class="lbt">
+                <div class="container"> 
+                    <div class="item one"><img src="all.img/lun1.jpg"></div>
+                    <div class="item two"><img src="all.img/lun2.jpg"></div>
+                    <div class="item three"><img src="all.img/lun3.jpg"></div>
+                    
+                </div>
+                <div class="buttons">
+                    <div class="button" onclick="to(0)">1</div>
+                    <div class="button" onclick="to(1)">2</div>
+                    <div class="button" onclick="to(2)">3</div>
+                   
+                </div>
+            </div>
+        </div>
+    </main> 
+<script>
+        let itemList = document.querySelectorAll('.container > div');
+        let buttons = "";
+        for(let i=0; i<itemList.length; i++) {
+            buttons+=`
+            <div class="button" onclick="to(${i})">${i+1}</div>
+            `
+        }
+        document.querySelector('.buttons').innerHTML = buttons;
+        let index = 0;
+        setInterval(() => {
+            if(index >= itemList.length - 1) {
+                index = 0
+            } else {
+                index++;
+            }
+            document.querySelector('.container').style.transform = `translateX(${-100 * index + '%'})`
+        }, 3*1000);
+        function to (i) {
+            index = i;
+            document.querySelector('.container').style.transform = `translateX(${-100 * index + '%'})`
+        }
+</script>                   
+</body>
+<!-- <footer class="footer">
+    <div class="copyright">
+        <p>Copyright &copy; 中国地质大学（武汉）数理学院</p>
+    </div>
+</footer> -->
+</html>

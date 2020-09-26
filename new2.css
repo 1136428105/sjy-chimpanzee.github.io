@@ -1,0 +1,47 @@
+
+main{
+    width: 1250px;
+}
+.lbt {
+    overflow: hidden;
+    width: 1250px;
+    position: relative;
+}
+.container {
+    border: 1px solid;
+    display: flex;
+    transition: 1.5s all;
+}
+.buttons {
+    position: absolute;
+    right: 600px;
+    bottom: 45px;
+    background: rgba(128, 128, 128, 0.301);
+    cursor: pointer;
+    display: flex;
+   
+}
+.button {
+    margin-left:  15px;
+    margin-right:  15px;
+
+}
+
+
+
+.item {
+    height: 500px;
+    width: 1250px;
+    flex-shrink: 0;
+}
+.one {
+    background-color: blue;
+}
+.two {
+    background-color: yellow;
+}
+.three {
+    background-color: red;
+}
+
+

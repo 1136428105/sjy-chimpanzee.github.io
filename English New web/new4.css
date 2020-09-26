@@ -1,0 +1,26 @@
+
+
+
+.main-content img {
+   width: 100px;
+}
+.main-pro img {
+    width: 150px;
+ }
+.main-content{
+    display: flex;
+    color:black;
+    font-size: 20px;
+    margin-top: 50px;
+    border-top:1px solid gray;
+    padding-top: 30px;
+}
+.main-pro{
+    display: flex;
+    color:black;
+    font-size: 25px;
+    margin-top: 50px;
+    border-top:1px solid gray;
+    padding-top: 30px;
+    justify-content: center;
+}
