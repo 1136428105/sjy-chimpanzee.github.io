@@ -14,20 +14,29 @@ main{
 }
 .buttons {
     position: absolute;
-    right: 600px;
+    right: 50%;
+    transform: translateX(50%);
     bottom: 45px;
-    background: rgba(128, 128, 128, 0.301);
+    background: rgba(128, 128, 128, 0.4);
     cursor: pointer;
     display: flex;
-   
 }
 .button {
     margin-left:  15px;
     margin-right:  15px;
-
 }
-
-
+.button1 {
+    margin-left:  100px;
+  
+}
+.button2 {
+    margin-left:  100px;
+ 
+}
+.button3 {
+    margin-left:  100px;
+  
+}
 
 .item {
     height: 500px;

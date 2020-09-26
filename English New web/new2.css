@@ -14,7 +14,8 @@ main{
 }
 .buttons {
     position: absolute;
-    right: 600px;
+    right: 50%;
+    transform: translateX(50%);
     bottom: 45px;
     background: rgba(128, 128, 128, 0.301);
     cursor: pointer;

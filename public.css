@@ -145,28 +145,8 @@ font-size: 25px;
     bottom: 0;
 } */
 /* myfooter end */
-.paper{
-display: flex;
-}
-.paper-research1{
-    margin-top: 50px;
-    width: 400px;
-    height: 550px;
-    /* border:1px solid rgb(218, 61, 61); */
-}
-.paper-line{
-    margin-top: 50px;
-    width: 5px;
-    height: 550px;
-    /* border: 1px solid rgb(218, 61, 61); */
-    background-color: greenyellow;
-}
-.paper-research2{
-    margin-top: 50px;
-    width: 845px;
-    height: 550px;
-    /* border:1px solid rgb(218, 61, 61); */
-}
+
+
 .lang0{
     display: flex;
 }

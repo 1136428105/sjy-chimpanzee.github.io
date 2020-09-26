@@ -7,12 +7,19 @@
 .main-pro img {
     width: 150px;
  }
+.main-group1{
+    font-size: 25px;
+    border-top:1px solid gray;
+    margin-top: 30px; 
+    padding-top: 30px; 
+    padding-left: 40%; 
+ 
+}
 .main-content{
     display: flex;
     color:black;
     font-size: 20px;
-    margin-top: 50px;
-    border-top:1px solid gray;
+    margin-top: 30px;   
     padding-top: 30px;
 }
 .main-pro{
