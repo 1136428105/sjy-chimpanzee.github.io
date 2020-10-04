@@ -94,14 +94,18 @@ font-size: 25px;
     margin-top: 20px;
 }
 .new5{
+    margin-top: 30px;
     color:rgb(233, 54, 84);
-    font-size: 50px;
+    font-size: 30px;
 }
 .new7{
     color:rgba(177, 31, 31, 0.925);
-    font-size: 50px;
-    margin-left: 500px;
+    font-size: 30px;
+    margin-left: 50px;
     margin-top: 50px;
+}
+.bohou{
+    font-size: 22px;
 }
 .main-content11{
     margin-top:30px ;
