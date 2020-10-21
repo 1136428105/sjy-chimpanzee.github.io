@@ -1,19 +1,18 @@
-.paper{
+/* .paper{
     display: flex;
-}
+} */
 .paper-research1{
     margin-top: 50px;
-    width: 400px;
-    height: 550px;
+    width: 100%;
+    height:200px;
     /* border:1px solid rgb(218, 61, 61); */
 }
-.paper-line{
-    margin-top: 50px;
-    width: 5px;
-    height: 550px;
-    /* border: 1px solid rgb(218, 61, 61); */
-    background-color: rgb(255, 47, 47);
+.paper-research1 a{
+    text-decoration: none;
+
 }
+
+
 .paper-research2{
     font-size: 50px;
     margin-left: 45px;
@@ -23,27 +22,34 @@
     background-color: greenyellow;
     /* border:1px solid rgb(218, 61, 61); */
 }
-.paper-research11{
-    font-size: 50px;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 300px;
-    height: 150px;
-    background-color: greenyellow;
-    }
-.paper-research12{
-    font-size: 50px;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 300px;
-    height: 150px;
-    background-color: greenyellow;
-    }
-.paper-research13{
-    font-size: 50px;
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 300px;
-    height: 150px;
-    background-color: greenyellow;
-    }
+.a{
+    text-decoration:none;
+}
+.paper3{
+    margin-top: 50px;
+    /* margin-bottom: 20px;    */
+    border-top:3px solid gray;
+    /* margin-left: 45%; */
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+}
+.paper4{
+    /* margin-top: 50px; */
+    margin-bottom: 20px;   
+    border-bottom:1px solid gray;
+    /* margin-left: 45%; */
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+}
+.paper2{
+    background-color: rgb(154, 203, 236);
+    /* background-color: pink; */
+    font-size: 18px;
+}
+.years{
+    display: flex;
+    justify-content:center;
+    align-items:Center;
+}

@@ -55,7 +55,7 @@ body {
     outline: none;
     box-shadow: 0 3px 27px rgb(36, 123, 221);
 }
-a:visited{color:rgb(250, 240, 240);} 
+a:visited{color:rgb(65, 17, 236);} 
 a:hover{color:rgb(233, 15, 15);} 
 a:active{color:rgb(224, 48, 116);} 
 header{
@@ -155,7 +155,12 @@ font-size: 25px;
 
 .lang0{
     display: flex;
+    font-size: 22px;
 }
+.lang2-a{
+    text-decoration: none;
+}
+
 
 
 
